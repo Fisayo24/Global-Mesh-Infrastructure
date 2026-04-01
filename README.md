@@ -13,5 +13,5 @@ The first stage of the deployment focuses on establishing a consistent networkin
 ### 📊 Networking Validation
 The output below confirms the successful planning of 8 core networking resources (VPCs, Public Subnets, and IGWs):
 
-![Networking Plan Validation](./infra-validation-8<img width="960" height="504" alt="infra-validation-8-resources" src="https://github.com/user-attachments/assets/06b1ad91-afbf-4fa7-8f4e-4328a1cc51b4" />
+(./infra-validation-8<img width="960" height="504" alt="infra-validation-8-resources" src="https://github.com/user-attachments/assets/06b1ad91-afbf-4fa7-8f4e-4328a1cc51b4" />
 -resource.png)
