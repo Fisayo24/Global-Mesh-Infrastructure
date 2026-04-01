@@ -31,3 +31,18 @@ The validation below confirms the simultaneous provisioning of two T2-Micro inst
 ### Automation Highlights
 * **Dynamic Subnet Mapping:** Instances automatically inherit the CIDR and Gateway settings from the Networking module.
 * **Region-Specific Providers:** Demonstrated the ability to manage compute resources across different geographic regions in a single execution plan.
+
+* ## Phase 3: Global Compute Execution (Plan: 2)
+The final stage of the deployment validates the successful provisioning of compute resources into the previously established networking mesh.
+
+### Execution Validation Summary
+The output below confirms that Terraform has successfully planned the deployment of two **T2-Micro** instances. By leveraging the modular outputs from Phase 1, these instances are automatically assigned to the correct regional subnets in **US-East-1** and **EU-West-1**.
+
+**Final Plan Output:**
+![Final Compute Plan<img width="960" height="504" alt="04-compute-plan-final" src="https://github.com/user-attachments/assets/3baf7aca-777b-4543-9e79-7af35217d29b" />
+](./04-compute-plan-final.png)
+
+### Project Takeaways
+* **Modular Orchestration:** Proved the ability to manage a global footprint from a single centralized configuration.
+* **Security & Reliability:** Integrated S3 and DynamoDB for production-grade state management.
+* **Infrastructure as Code:** Demonstrated advanced Terraform skills including provider aliasing, modules, and variable-driven logic.
