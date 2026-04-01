@@ -28,6 +28,6 @@ The validation below confirms the simultaneous provisioning of two T2-Micro inst
 (./02-dynamodb-state<img width="960" height="504" alt="02-dynamodb-state-lock-active" src="https://github.com/user-attachments/assets/640b3529-dd9f-40e7-afcc-3ebe35583876" />
 -lock-active.png)
 
-### ⚙️ Automation Highlights
+### Automation Highlights
 * **Dynamic Subnet Mapping:** Instances automatically inherit the CIDR and Gateway settings from the Networking module.
 * **Region-Specific Providers:** Demonstrated the ability to manage compute resources across different geographic regions in a single execution plan.
