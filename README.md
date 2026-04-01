@@ -40,7 +40,7 @@ The output below confirms that Terraform has successfully planned the deployment
 
 **Final Plan Output:**
 <img width="960" height="504" alt="04-compute-plan-final" src="https://github.com/user-attachments/assets/3baf7aca-777b-4543-9e79-7af35217d29b" />
-](./04-compute-plan-final.png)
+(./04-compute-plan-final.png)
 
 ### Project Takeaways
 * **Modular Orchestration:** Proved the ability to manage a global footprint from a single centralized configuration.
